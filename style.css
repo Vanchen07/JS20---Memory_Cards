@@ -36,3 +36,19 @@ h2 button {
     margin-top: 20px;
     padding: 10px 15px;
 }
+
+.btn-small {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.btn-ghost {
+    border: 0;
+    background-color: transparent;
+}
+
+.clear {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
