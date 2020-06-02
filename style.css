@@ -92,6 +92,10 @@ h2 button {
     position: relative;
 }
 
+.card.show-answer .inner-card{
+    transform: rotateX(180deg);
+}
+
 .inner-card-front, 
 .inner-card-back {
     position: absolute;
