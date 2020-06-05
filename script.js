@@ -8,3 +8,4 @@ const questionEl = document.getElementById('question');
 const answerEl = document.getElementById('answer');
 const addCardBtn = document.getElementById('add-card');
 const clearBtn = document.getElementById('clear');
+const addContainer = document.getElementById('add-container');
