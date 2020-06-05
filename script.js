@@ -4,3 +4,4 @@ const nextBtn = document.getElementById('next');
 const currentEl = document.getElementById('current');
 const showBtn = document.getElementById('show');
 const hideBtn = document.getElementById('hide');
+const questionEl = document.getElementById('question');
