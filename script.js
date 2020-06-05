@@ -5,3 +5,4 @@ const currentEl = document.getElementById('current');
 const showBtn = document.getElementById('show');
 const hideBtn = document.getElementById('hide');
 const questionEl = document.getElementById('question');
+const answerEl = document.getElementById('answer');
