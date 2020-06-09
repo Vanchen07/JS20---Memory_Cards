@@ -121,8 +121,8 @@ h2 button {
     transform: rotateX(180deg);
 }
 
-.inner-card-front:after, 
-.inner-card-back:after {
+.inner-card-front::after, 
+.inner-card-back::after {
     content: '\f021  Flip';
     font-family: 'Font Awesome 5 Free', Lato, sans-serif;
     position: absolute;
