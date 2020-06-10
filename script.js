@@ -72,7 +72,8 @@ function updateCurrentText() {
 }
 
 function getCardsData() {
-    const cards = localStorage.getItem('cards');
+    const cards = JSON.parse(localStorage.getItem('cards'));
+    return cards === null ? [] : cards;
 }
 
 createCards();
