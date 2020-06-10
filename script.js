@@ -76,6 +76,11 @@ function getCardsData() {
     return cards === null ? [] : cards;
 }
 
+function setCardsData(cards) {
+    localStorage.setItem('cards', JSON.stringify(cards));
+    window.location.reload();
+}
+
 createCards();
 
 nextBtn.addEventListener('click', () => {
@@ -111,7 +116,7 @@ showBtn.addEventListener('click', () => addContainer.classList.add('show'));
 hideBtn.addEventListener("click", () => addContainer.classList.remove("show"));
 
 addCardBtn.addEventListener('click', () => {
-    const questions = questionEl.value;
+    const question = questionEl.value;
     const answer = answerEl.value;
 
     if (question.trim() && answer.trim()) {
@@ -128,3 +133,9 @@ addCardBtn.addEventListener('click', () => {
         setCardsData(cardsData);
     }
 });
+
+clearBtn.addEventListener('click', () => {
+    localStorage.clear();
+    cardsContainer.innerHTML = '';
+    window.location.reload();
+})

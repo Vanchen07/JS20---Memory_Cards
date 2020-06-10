@@ -20,7 +20,7 @@ h1 {
     position: relative;
 }
 
-h2 button {
+h1 button {
     position: absolute;
     right: 0;
     transform: translate(120%, -50%);
@@ -85,7 +85,7 @@ h2 button {
 }
 
 .inner-card {
-    box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     height: 100%;
     width: 100%;
